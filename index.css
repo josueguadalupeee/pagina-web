@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    background-color:black;
+}
+title{color: white;}
+a{color: white;}
+h1{font-size: 3.5em;
+color: white;}
+h2{font-size: 2.7;
+color: white;}
+h3{font-size: 2em;
+color: white;}
+p{font-size: 1.25em;
+color: white;
+}
+ul{list-style: none;
+color: white;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10x 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+   background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(133, 56, 206);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color: blueviolet;}
+
+header{
+    background-color: black;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+header a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url("media/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+
+
+#Quien-soy.container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#que-jugamos{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+#que-jugamos.container{
+    padding: 150px 12px;
+    
+}
+
+#que-jugamos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#que-jugamos p{
+    display: none;
+}
+
+#que-jugamos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+
+
+.carta:first-child{
+    background-image:url("media/gtav.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: url("media/fortnite.jpg");
+}
+
+.carta:nth-child(3){
+    background-image:url("media/callofduty.jpg");
+}
+.carta p{
+    color: white;
+}
+
+#caracteristicas.container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: (30,30,30);
+    color: white;
+    height: 80vh;
+}
